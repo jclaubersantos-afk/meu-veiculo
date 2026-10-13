@@ -45,9 +45,9 @@ jobs:
       - name: Publicar APK para baixar
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: meu-veiculo-v1.0.1
-          name: Meu Veículo Android 1.0.1
-          body: APK de instalação direta para Android 5.0 ou superior, agora com tema escuro em todas as telas.
+          tag_name: meu-veiculo-v1.0.2
+          name: Meu Veículo Android 1.0.2
+          body: APK de instalação direta para Android 5.0 ou superior, agora com tema escuro nas telas e relatórios em PDF escuro.
           prerelease: true
           files: source/MeuVeiculoAndroid/app/build/outputs/apk/debug/app-debug.apk
         env:
